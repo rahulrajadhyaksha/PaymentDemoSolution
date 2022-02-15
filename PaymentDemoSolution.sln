@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentAPI", "PaymentAPI\PaymentAPI\PaymentAPI.csproj", "{1E5A49EE-6977-421C-91AF-59D356C890CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentAPI", "PaymentAPI\PaymentAPI.csproj", "{93ED9CA0-13F3-4528-8753-6AE1795205D0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CFF73D0E-3FAF-4917-B2A8-1D0E30BD8BEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1E5A49EE-6977-421C-91AF-59D356C890CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E5A49EE-6977-421C-91AF-59D356C890CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E5A49EE-6977-421C-91AF-59D356C890CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E5A49EE-6977-421C-91AF-59D356C890CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93ED9CA0-13F3-4528-8753-6AE1795205D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93ED9CA0-13F3-4528-8753-6AE1795205D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93ED9CA0-13F3-4528-8753-6AE1795205D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93ED9CA0-13F3-4528-8753-6AE1795205D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF73D0E-3FAF-4917-B2A8-1D0E30BD8BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF73D0E-3FAF-4917-B2A8-1D0E30BD8BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF73D0E-3FAF-4917-B2A8-1D0E30BD8BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF73D0E-3FAF-4917-B2A8-1D0E30BD8BEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,6 +14,7 @@ export class PaymentDetailService {
   list: PaymentDetail[];
 
   postPaymentDetail() {
+   // var headerobj = {headers:new HttpHeaders({'Content-Type': 'application/json'})}
     return this.http.post(this.baseURL, this.formData);
   }
 
